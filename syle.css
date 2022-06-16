@@ -1,0 +1,88 @@
+body {
+  background-color: #393e46;
+  background: #385dd6;
+  background: -webkit-linear-gradient(to right, #fc9e9e, #4e76fa);
+  background: linear-gradient(to right, #cf8d8d, #708ff5);
+}
+
+.container {
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
+#main {
+  width: 300px;
+  height: 520px;
+  border-radius: 15px;
+  background-color: #15273f;
+  transition: box-shadow 0.2s;
+
+  transition: margin-top 0.1s;
+  transition: margin-left 0.1s;
+}
+#main:hover {
+  box-shadow: 14px 17px 5px rgba(0, 0, 0, 0.453);
+  margin-top: -20px;
+  margin-left: -20px;
+}
+.boximg {
+  border-radius: 30px;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin-left: 5px;
+}
+#username {
+  color: white;
+}
+#caption {
+  color: #465b79;
+  font-style: normal;
+}
+.icons {
+  display: flex;
+  grid-gap: 70px;
+}
+#eth {
+  color: aqua;
+
+  display: flex;
+  align-items: center;
+}
+#eth:hover {
+  color: grey;
+}
+.clock :hover,
+.clock P :hover,
+.footer-p:hover {
+  color: gray;
+}
+.clock {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  color: RGB(0, 255, 255);
+}
+.clock P {
+  margin-left: 5px;
+  color: RGB(0, 255, 255);
+}
+.footer {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid gray;
+}
+.Channel-profile-picture {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.footer-p {
+  color: RGB(0, 255, 255);
+}
+.info-section {
+  padding-left: 30px;
+  padding-right: 30px;
+}
